@@ -1,38 +1,182 @@
-.App {
-  text-align: center;
+.contenedor{
+    width: 100%;
+}
+#root{
+    width: 30%;
+    height: 400px;
+    margin-top: 100px;
+}
+p{
+    font-family:cursive;
+    font-size: 20px;
+    margin-left: 10px;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: space-around;
+    background-color: rgb(25, 1, 36);
+}
+button{
+    border: none;
+}
+.themeb1{
+    background-color: rgb(25, 1, 36);
+}
+.theme1{
+    color: rgb(226, 210, 60);
+    background-color: rgb(49, 2, 94);
+    box-shadow: 0px 3px rgb(140, 6, 202);
+}
+.themei1{
+    color: rgb(226, 210, 60);
+    background-color: rgb(49, 2, 94);
+}
+.themep1{
+    color: rgb(226, 210, 60);
+}
+.colori1{
+    background-color: turquoise;
+    color:black;
+    box-shadow: 0px 3px rgb(190, 190, 190);
+}
+.color1{
+    border:none;
+    color: white;
+    background-color: rgb(93, 3, 138);
+    box-shadow: 0px 3px rgb(141, 8, 202);
+}
+.theme2{
+    color: black;
+    background-color: white;
+    box-shadow: 0px 3px rgb(158, 158, 158);
+}
+.themei2{
+    color: white;
+    background-color: rgb(20, 24, 41);
+}
+.themep2{
+    color: white;
+}
+.colori2{
+    background-color: red;
+    color:white;
+    box-shadow: 0px 3px rgb(221, 72, 72);
+}
+.color2{
+    border:none;
+    color: white;
+    background-color: rgb(50, 60, 105);
+    box-shadow: 0px 3px rgb(67, 79, 133);
+}
+.theme3{
+    color: black;
+    background-color: rgb(238, 236, 236);
+    box-shadow: 0px 3px rgb(190, 190, 190);
+}
+.themei3{
+    color: black;
+    background-color: white;
+}
+.themep3{
+    color: black;
+}
+.colori3{
+    background-color: rgb(211, 100, 35);
+    color:white;
+    box-shadow: 0px 3px rgb(250, 119, 43);
+}
+.color3{
+    color: white;
+    background-color: rgb(16, 128, 118);
+    box-shadow: 0px 3px rgb(27, 146, 136);
+}
+@media (max-width: 800px) {
+    #del{
+        font-size: medium;
+    }
+    #input{
+        font-size: large !important;
+    }
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@media (max-width: 600px){
+    #del{
+        font-size: small;
+    }
+    #input{
+        font-size: medium !important;
+    }
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+@media (max-width: 500px){
+    #del{
+        font-size: smaller;
+    }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#sectionSele{
+    display: flex;
+    flex-direction: column;
 }
-
-.App-link {
-  color: #61dafb;
+#divSelect{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    width: 95%;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#artLab{
+    display: flex;
+    justify-content: space-around;
+}
+#artSel{
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+#divInputs{
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+}
+#input{
+    height: 60px;
+    margin-bottom: 10px;
+    text-align: right;
+    width: 95%;
+    font-size: 40px;
+    border: none;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    border-radius: 5px;
+}
+#divBot{
+width: 100%;
+height: 250px;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+border-radius: 10px;
+}
+#divBot section{
+    display: flex;
+    justify-content: space-around;
+    align-items: space-around;
+}
+#secEq{
+    margin-bottom: 10px;
+}
+.btn{
+    width: 20%;
+    height: 120%;
+    font-size: 140%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.btnEqual{
+    width: 45%;
+    height: 120%;
+}
+button{
+    border-radius: 10px;
 }
