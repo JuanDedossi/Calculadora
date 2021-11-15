@@ -1,7 +1,7 @@
 import React from 'react';
 import { Select } from './components/Select';
 import { InputC } from './components/InputC';
-import './App.css';
+import './app.css';
 
 
 export default function App(){
