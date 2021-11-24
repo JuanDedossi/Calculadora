@@ -28,7 +28,7 @@ export function Buttons({pressbutton, erase, equal, reset,theme}){
             <button className={`btn theme${theme}`} onClick={press} value='.'>.</button>
             <button className={`btn theme${theme}`} onClick={press} value='0' >0</button>
             <button  className={`btn theme${theme}`} onClick={press} value='/'>/</button>
-            <button  className={`btn theme${theme}`} onClick={press} value='*'>X</button>
+            <button  className={`btn theme${theme}`} onClick={press} value='*'>*</button>
             </section>
             <section id='secEq'>
             <button id='del' className={`btn btnEqual color${theme}`} onClick={()=> reset()}>RESET</button>
