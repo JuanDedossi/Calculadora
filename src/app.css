@@ -1,5 +1,5 @@
 .contenedor{
-    width: 35vw;
+    width: 30vw;
 }
 #root{
     height: 80vh;
@@ -100,6 +100,9 @@ button{
 }
 
 @media (max-width: 600px){
+    .contenedor{
+        width: 40vw;
+    }
     #del{
         font-size: small;
     }
@@ -178,4 +181,8 @@ border-radius: 10px;
 }
 button{
     border-radius: 10px;
+}
+button:active{
+    box-shadow: none;
+    opacity: 0.9;
 }

@@ -10,10 +10,13 @@ export function InputC({theme}){
              setInputVal(prevInputVal => prevInputVal +num);
             }
        else{
-           if(Number(inputVal[inputVal.length-1]) || Number(inputVal[inputVal.length-1])===0){
+           if((Number(inputVal[inputVal.length-1]) || Number(inputVal[inputVal.length-1])===0) && inputVal[inputVal.length-1] !== ' '){
                if(num === '.'){
+                   let res = inputVal.split(' ');
+                   if(!res[res.length-1].includes('.')){
                 setInputVal(prevInputVal => prevInputVal +num);
                }
+            }
                else{
                    setInputVal(prevInputVal => prevInputVal +` ${num} `);
                }
